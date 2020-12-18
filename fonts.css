@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'gotham pro';
+    src: url('fonts/14078-webfont.woff') format('woff');
+    src: url('fonts/14078-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
