@@ -421,7 +421,7 @@ footer{
 }
 @media (max-width: 1023px) {
   .menu-1,.menu-2,.main__content_history_link,.link-arrow,.link-arrow-2,
-  .main__catalog_photo_img,.catalog_3,.catalog_4,.stories_element_3{
+  .main__catalog_photo_img,.catalog_3,.catalog_4,.stories_element_3,.main-background-375px{
     display: none;
   }
   .logo{
@@ -545,20 +545,17 @@ footer{
     padding: 10px 10px;
     margin-right: 1px;
   }
-  .main-background{
+  .main-background,.main-background-768px{
     position: absolute;
-    width: 1634px;
-    height: 1576px;
-    left: -324px;
-    top: 1033px;
-    background: #000000;
-    transform: rotate(2.6deg);
+    top: 498px;
+    width: 100%;
     z-index: -1;
   }
   .main__content_history{
     flex-direction: column-reverse;
     background-color: none;
     margin-bottom: 99px;
+    background:
   }
   .main__content_history_media,.main__content_history_element{
     display: block;
@@ -591,6 +588,7 @@ footer{
   .main__content_stories{
     width: 89%;
     margin: 0 auto 125px auto;
+    background-color: #000;
   }
   .main__content_stories_element{
     width: 46%;
@@ -660,7 +658,7 @@ footer{
     padding-top: 62px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 747px) {
   .catalog_2,.stories_element_2,.gallery_img_4{
     display: none;
   }
@@ -744,10 +742,10 @@ footer{
   .main__catalog_product_color{
     padding: 7px 7px;
   }
-  .main-background{
-    height: 1253px;
-    left: -557px;
-    top: 626px;
+  .main-background,.main-background-375px{
+    display: block;
+    top: 590px;
+    width: 100%;
   }
   .main__content_history{
     margin-bottom: 82px;
@@ -809,8 +807,8 @@ footer{
   .main__content_gallery{
     display: flex;
     flex-flow: wrap;
-    width: 74%;
-    margin: 0 auto 92px auto;
+    width: 75%;
+    margin: 0 auto 81px auto;
   }
   .main__content_gallery_title{
     font: bolder 25px/24px 'Gotham Pro', arial, helvetica, sans-serif;
@@ -896,6 +894,9 @@ footer{
   }
 }
 @media (max-width: 374px) {
+  .main-background-768px{
+    display: none;
+  }
   .logo{
     left: 20px;
   }
@@ -916,6 +917,9 @@ footer{
   }
   .main__catalog_product_element{
     width: 78%;
+  }
+  .main-background,.main-background-375px{
+    height: 1330px;
   }
   .main__content_history_element{
     width: 88%;
